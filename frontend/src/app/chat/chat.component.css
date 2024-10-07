@@ -1,0 +1,48 @@
+ul.messages {
+  list-style-type: none;
+  padding: 0;
+}
+
+.messages .message {
+  margin-bottom: 10px;
+}
+
+.messages .message.left .text_wrapper {
+  background-color: #ffffff; /* Fond des messages reçus (blanc) */
+  color: #000;
+  max-width: 60%;
+}
+
+.messages .message.right .text_wrapper {
+  background-color: #dcf8c6; /* Fond des messages envoyés (vert clair WhatsApp) */
+  color: black;
+  max-width: 60%;
+}
+
+.chat_window {
+  max-width: 600px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.message_input {
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.sender-message {
+  background-color: #dcf8c6 !important; /* Fond vert pour les messages envoyés */
+  color: black;
+}
+
+.receiver-message {
+  background-color: #ffffff !important; /* Fond blanc pour les messages reçus */
+  color: black;
+}
+
+.text_wrapper {
+  border-radius: 10px;
+  padding: 10px;
+}
