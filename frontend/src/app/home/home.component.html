@@ -4,10 +4,10 @@
   
     <!-- Mise en place des boutons sur la même ligne avec flex -->
     <div class="d-flex justify-content-center gap-3">
-      <button type="button" class="btn btn-primary btn-lg shadow-lg">
+      <button (click)="supportClient(1)" type="button" class="btn btn-primary btn-lg shadow-lg">
         Espace client
       </button>
-      <button type="button" class="btn btn-info btn-md shadow-sm">
+      <button (click)="supportClient(2)" type="button" class="btn btn-info btn-md shadow-sm">
         Espace service client
       </button>
     </div>
